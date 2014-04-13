@@ -12,8 +12,8 @@ module.exports = {
     'uglify_app',
     'concat_vendor',
     'uglify_app',
-    'uglify_vendor'
-    // 'browser_sync'
+    'uglify_vendor',
+    'browser_sync'
   ],
 
   // you can inject these file arrays as needed into the various gulp tasks.

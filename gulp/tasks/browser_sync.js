@@ -3,7 +3,7 @@ var gulp = require("gulp"),
 
 module.exports = function() {
   browserSync.init([
-    'public/stylesheets/*.css'
+    'public/css/*.css'
   ], {
 
   });

@@ -1,4 +1,3 @@
-// unused, but left available for reference and in case of future use.
 var gulp = require('gulp'),
   notify = require('gulp-notify'),
   sass = require('gulp-sass');

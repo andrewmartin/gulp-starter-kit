@@ -1,10 +1,8 @@
+// unused, but left available for reference and in case of future use.
 var gulp = require('gulp'),
   rename = require('gulp-rename'),
   notify = require('gulp-notify'),
   stylus = require('gulp-stylus');
-// stylus = function(opts) {
-//   return accord('stylus', opts);
-// };
 
 module.exports = function() {
   return gulp.src('public/stylesheets/styl/vendor.styl')

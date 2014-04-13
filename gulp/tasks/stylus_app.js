@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 
 module.exports = function() {
 
-  gulp.src('assets/stylesheets/application.styl')
+  return gulp.src('assets/stylesheets/application.styl')
     .pipe(stylus({
       set: [
         'resolve url',

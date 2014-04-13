@@ -5,7 +5,7 @@ var gulp = require("gulp"),
 
 module.exports = function() {
 
-  gulp.src("assets/stylesheets/application.scss")
+  return gulp.src("assets/stylesheets/application.scss")
     .pipe(sass({
       sourceComments: 'map'
     })).on("error", notify.onError({

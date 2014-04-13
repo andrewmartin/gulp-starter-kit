@@ -3,6 +3,7 @@ var gulp = require("gulp"),
   notify = require("gulp-notify");
 
 module.exports = function() {
+
   return gulp.src("assets/scripts/**/*.coffee")
     .pipe(coffee({
       bare: false
@@ -12,4 +13,5 @@ module.exports = function() {
       title: "Coffee Error"
     }))
     .pipe(gulp.dest("assets/scripts"));
+
 };

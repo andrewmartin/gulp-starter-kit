@@ -37,7 +37,7 @@ tasks: [
 
 Tasks are placed into the `./gulp/tasks` directory, and are abstracted out by file name. There are two options for defining a task:
 
-1. Return the `gulp.src` object directly:
+#### Return the `gulp.src` object directly:
 
 ```
 var gulp = require('gulp'),
@@ -58,7 +58,7 @@ module.exports = function() {
 };
 ```
 
-2. For more complex operations, return a `gulp.task` definition. This becomes necessary when you are attempting to define a dependency array.
+#### For more complex operations, return a `gulp.task` definition. This becomes necessary when you are attempting to define a dependency array.
 
 _Be sure to name the task the exact same name as the filename. The way this project is set up, it won't work otherwise._
 

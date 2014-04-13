@@ -11,8 +11,7 @@ This project uses a modular approach to handling both the definition of tasks as
 
 Pretty much:
 
-`$ npm install`
-`$ bower install`
+`$ npm install && bower install`
 
 Should cover it.
 
@@ -20,7 +19,7 @@ Should cover it.
 
 Available tasks are found in the `gulp/config.js` file:
 
-``` js config.js
+```
 tasks: [
   'sass',
   'cssmin',
@@ -40,7 +39,7 @@ Tasks are placed into the `./gulp/tasks` directory, and are abstracted out by fi
 
 1. Return the `gulp.src` object directly:
 
-``` js sass.js
+```
 var gulp = require('gulp'),
   notify = require('gulp-notify'),
   sass = require('gulp-sass');
@@ -63,7 +62,7 @@ module.exports = function() {
 
 _Be sure to name the task the exact same name as the filename. The way this project is set up, it won't work otherwise._
 
-``` js uglify_app.js
+```
 var uglify = require('gulp-uglify'),
   CONF = require('../config'),
   rename = require('gulp-rename');

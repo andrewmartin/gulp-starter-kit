@@ -1,0 +1,21 @@
+{
+  "name": "gulp_setup",
+  "version": "0.0.1",
+  "authors": [
+    "Andrew Martin <hello@andrewmart.in>"
+  ],
+  "description": "A basic gulp setup project",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "twbs-bootstrap-sass": "~3.1.1",
+    "jquery": "~2.1.0"
+  }
+}

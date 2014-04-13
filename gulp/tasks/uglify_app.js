@@ -7,6 +7,6 @@ module.exports = function() {
     gulp.src('public/js/application.js')
       .pipe(uglify())
       .pipe(rename('application.min.js'))
-      .pipe(gulp.dest("public/js"));
+      .pipe(gulp.dest('public/js'));
   });
 }

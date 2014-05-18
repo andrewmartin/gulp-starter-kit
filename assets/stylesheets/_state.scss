@@ -1,0 +1,11 @@
+// all images
+img {
+  @include img-responsive();
+  border-radius: $border-radius-base;
+}
+
+// backface
+@mixin backface-hidden() {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
